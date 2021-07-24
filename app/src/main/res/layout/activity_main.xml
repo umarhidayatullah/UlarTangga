@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center">
+
+        <TableRow
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_00"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_00"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_01"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_01"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_02"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_02"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_03"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_03"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_04"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_04"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_10"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_11"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_12"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_13"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_14"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_20"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_20"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_21"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_21"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_22"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_23"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_23"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_24"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_24"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_30"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_30"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_31"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_31"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_32"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_32"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_33"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_33"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_34"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_34"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_40"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_40"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_41"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_41"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_42"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_42"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_43"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_43"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cd_tiles_44"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="2dp"
+                card_view:strokeColor="@color/black"
+                card_view:strokeWidth="5dp">
+
+                <ImageView
+                    android:id="@+id/player_44"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/player"
+                    android:src="@drawable/player"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container_updown"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_up"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/arrow"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/btn_bot"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/arrow"
+                android:rotation="180"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/container_updown"
+            android:background="@drawable/arrow"
+            android:rotation="90"
+            android:stateListAnimator="@null"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/container_updown"
+            android:background="@drawable/arrow"
+            android:rotation="-90"
+            android:stateListAnimator="@null"
+            app:backgroundTint="@null" />
+
+    </RelativeLayout>
+
+</LinearLayout>
